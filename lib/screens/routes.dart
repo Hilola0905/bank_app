@@ -50,6 +50,8 @@ class AppRoutes {
 class RouteNames {
   static const String splashScreen = "/";
   static const String tabRoute = "/tab_route";
+  static const String loginScreen = "/login";
+  static const String register = "/register";
   static const String authRoute = "/auth_route";
   static const String noInternetRoute = "/no_internet_route";
   static const String paymentRoute = "/payment_route";
