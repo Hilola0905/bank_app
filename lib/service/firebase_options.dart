@@ -60,13 +60,13 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDUXpB02djU0Zjyeio5IMPrbC8R0UD-9nw',
-    appId: '1:58535978019:ios:ba55fc9bef1c1e2e39fd96',
+    appId: '1:58535978019:ios:1f8b8f5589f8309739fd96',
     messagingSenderId: '58535978019',
     projectId: 'bank-app-3a607',
     databaseURL: 'https://bank-app-3a607-default-rtdb.firebaseio.com',
     storageBucket: 'bank-app-3a607.appspot.com',
     androidClientId: '58535978019-3bdefjs641kbm3r0a9vijlcn6v1gjrre.apps.googleusercontent.com',
-    iosClientId: '58535978019-eoo6uhq8en11651jmbecjv0rrsr1v3ne.apps.googleusercontent.com',
-    iosBundleId: 'com.example.bankApp',
+    iosClientId: '58535978019-kj1dpsgqs47pdae2va7fjoice1c3e0tv.apps.googleusercontent.com',
+    iosBundleId: 'uz.hilola.pay',
   );
 }
