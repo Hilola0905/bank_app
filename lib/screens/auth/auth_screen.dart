@@ -78,7 +78,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          SvgPicture.asset(AppImages.girl),
+                          SvgPicture.asset(AppImages.google),
                           const SizedBox(width: 10,),
                           Text(
                             "Google",

@@ -63,7 +63,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          SvgPicture.asset(AppImages.girl),
+                          SvgPicture.asset(AppImages.google),
                          const  SizedBox(width:20),
                           Text(
                             "Google",
