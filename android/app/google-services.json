@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "58535978019",
+    "firebase_url": "https://bank-app-3a607-default-rtdb.firebaseio.com",
     "project_id": "bank-app-3a607",
     "storage_bucket": "bank-app-3a607.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.bank_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "58535978019-3bdefjs641kbm3r0a9vijlcn6v1gjrre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bank_app",
+            "certificate_hash": "72e0fdde6b039945cfaf17444a3fd43cf9edd781"
+          }
+        },
+        {
+          "client_id": "58535978019-8h4mg076dipi42nca6od53gabaof7rhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBF0nF5XSE86Hz6HL8EC5Fd-mm6C7fQPAs"
@@ -20,7 +34,55 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58535978019-8h4mg076dipi42nca6od53gabaof7rhq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "58535978019-eoo6uhq8en11651jmbecjv0rrsr1v3ne.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bankApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58535978019:android:eef004457886876039fd96",
+        "android_client_info": {
+          "package_name": "uz.hilola.pay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58535978019-8h4mg076dipi42nca6od53gabaof7rhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF0nF5XSE86Hz6HL8EC5Fd-mm6C7fQPAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58535978019-8h4mg076dipi42nca6od53gabaof7rhq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "58535978019-eoo6uhq8en11651jmbecjv0rrsr1v3ne.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bankApp"
+              }
+            }
+          ]
         }
       }
     }
