@@ -6,4 +6,7 @@ class NetworkResponse{
      this.errorText = '',
     this.data,
 });
+
+
+  
 }

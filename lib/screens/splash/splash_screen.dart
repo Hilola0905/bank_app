@@ -17,7 +17,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   _init() async {
     await Future.delayed(
-      const Duration(seconds: 2),
+      const Duration(seconds: 6),
     );
     if (!mounted) return;
 
@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
     if (user == null) {
       bool isNewUser = StorageRepository.getBool(key: "is_new_user");
       if (isNewUser) {
-        Navigator.pushReplacementNamed(context, RouteNames.authRoute);
+        Navigator.pushReplacementNamed(context, RouteNames.register);
       } else {
         Navigator.pushReplacementNamed(context, RouteNames.onBoardingRoute);
       }

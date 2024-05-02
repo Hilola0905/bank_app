@@ -1,6 +1,5 @@
 
 import 'package:equatable/equatable.dart';
-
 import '../../data/model/user_model.dart';
 
 abstract class AuthEvent extends Equatable {}

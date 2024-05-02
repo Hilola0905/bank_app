@@ -4,6 +4,8 @@ import '../../data/repository/auth_repository.dart';
 import 'auth_event.dart';
 import 'auth_state.dart';
 
+
+
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc() : super(AuthInitial()) {
     on<RegisterEvent>((event, emit) async {

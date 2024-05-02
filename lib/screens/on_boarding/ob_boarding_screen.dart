@@ -1,7 +1,7 @@
 
-import 'package:bank_app/screens/on_boarding/pages/pages_one_screen.dart';
-import 'package:bank_app/screens/on_boarding/pages/pages_three_screen.dart';
-import 'package:bank_app/screens/on_boarding/pages/pages_two_screen.dart';
+import 'package:bank_app/screens/on_boarding/pages/boarding_page_one.dart';
+import 'package:bank_app/screens/on_boarding/pages/boarding_page_three.dart';
+import 'package:bank_app/screens/on_boarding/pages/boarding_page_two.dart';
 import 'package:flutter/material.dart';
 
 import '../../data/local/storage_repository.dart';
@@ -46,7 +46,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 ).then(
                       (value) {
                     Navigator.pushReplacementNamed(
-                        context, RouteNames.authRoute);
+                        context, RouteNames.register);
                   },
                 );
               } else {

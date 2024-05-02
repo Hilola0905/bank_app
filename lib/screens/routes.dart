@@ -1,4 +1,3 @@
-
 import 'package:bank_app/screens/payment/payment_screen.dart';
 import 'package:bank_app/screens/splash/splash_screen.dart';
 import 'package:bank_app/screens/tab/tab_screen.dart';
@@ -6,8 +5,10 @@ import 'package:bank_app/screens/transfer/transfer_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'auth/auth_screen.dart';
+import 'auth/login.dart';
 import 'no_internet/no_internet_screen.dart';
 import 'on_boarding/ob_boarding_screen.dart';
+
 
 class AppRoutes {
   static Route generateRoute(RouteSettings settings) {
@@ -24,10 +25,12 @@ class AppRoutes {
 
       case RouteNames.transferRoute:
         return navigate(const TransferScreen());
+        case RouteNames.loginScreen:
+        return navigate(const LoginScreen());
       case RouteNames.paymentRoute:
         return navigate(const PaymentScreen());
-      case RouteNames.authRoute:
-        return navigate(const AuthScreen());
+      case RouteNames.register:
+        return navigate(const RegisterScreen());
       case RouteNames.onBoardingRoute:
         return navigate(const OnBoardingScreen());
 
@@ -47,12 +50,12 @@ class AppRoutes {
   }
 }
 
+
 class RouteNames {
   static const String splashScreen = "/";
-  static const String tabRoute = "/tab_route";
   static const String loginScreen = "/login";
-  static const String register = "/register";
-  static const String authRoute = "/auth_route";
+  static const String tabRoute = "/tab_route";
+  static const String register = "/auth_route";
   static const String noInternetRoute = "/no_internet_route";
   static const String paymentRoute = "/payment_route";
   static const String transferRoute = "/transfer_route";
