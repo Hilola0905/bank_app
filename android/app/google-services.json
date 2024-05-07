@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:58535978019:android:10e60146937579c739fd96",
         "android_client_info": {
-          "package_name": "uz.hilola.pay"
+          "package_name": "com.example.bank_app"
         }
       },
       "oauth_client": [
@@ -58,6 +58,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "58535978019-caa85fl52m28607l2onneqbtdq1njtsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.hilola.pay",
+            "certificate_hash": "72e0fdde6b039945cfaf17444a3fd43cf9edd781"
+          }
+        },
         {
           "client_id": "58535978019-8h4mg076dipi42nca6od53gabaof7rhq.apps.googleusercontent.com",
           "client_type": 3

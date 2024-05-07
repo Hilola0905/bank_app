@@ -40,6 +40,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           TextButton(
             onPressed: () {
               if (activeIndex == 2) {
+
                 StorageRepository.setBool(
                   key: "is_new_user",
                   value: true,

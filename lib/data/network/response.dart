@@ -1,12 +1,13 @@
 class NetworkResponse{
   final String? errorText;
   final dynamic data;
+  final String? errorCode;
 
-  NetworkResponse({
+  NetworkResponse( {
      this.errorText = '',
-    this.data,
-});
+     this.data,
+     this.errorCode='',
+     }
+     );
 
-
-  
 }

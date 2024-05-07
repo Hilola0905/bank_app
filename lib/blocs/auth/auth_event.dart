@@ -1,22 +1,22 @@
 
+import 'package:bank_app/data/model/profile_model.dart';
 import 'package:equatable/equatable.dart';
-import '../../data/model/user_model.dart';
+
 
 abstract class AuthEvent extends Equatable {}
 
 class RegisterEvent extends AuthEvent{
 
-  final UserModel userModel;
+  final ProfileModel profileModel;
   final String confirmPassword;
-  RegisterEvent(this.userModel, this.confirmPassword);
+  RegisterEvent(this.profileModel, this.confirmPassword);
 
   @override
   List<Object?> get props => [
-    userModel.hashCode,
+    profileModel.hashCode,
     confirmPassword.hashCode
   ];
 }
-
 class LoginEvent extends AuthEvent{
 
   final String email;
@@ -32,11 +32,22 @@ class LoginEvent extends AuthEvent{
 
 }
 class LogOutEvent extends AuthEvent{
-
   LogOutEvent();
-
   @override
   List<Object?> get props => [];
 
 
 }
+class CheckedInitialEvent extends AuthEvent{
+  @override
+  List<Object?> get props => [];
+}
+
+class SignInGoogleEvent extends AuthEvent{
+
+  SignInGoogleEvent();
+
+  @override
+  List<Object?> get props => [];
+}
+
