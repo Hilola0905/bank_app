@@ -128,7 +128,7 @@ class _LoginScreenState extends State<LoginScreen> {
                const SizedBox(height: 20,),
                 GestureDetector(
                   onTap: () {
-                    Navigator.pushReplacementNamed(
+                    Navigator.pushNamed(
                         context, RouteNames.register);
                   },
                   child: Row(
@@ -164,7 +164,7 @@ class _LoginScreenState extends State<LoginScreen> {
         }
         if (state.formStatus==FormStatus.authenticated)  {
           BlocProvider.of<ProfileBloc>(context).add(AddProfileEvent(profileModel: state.profileModel));
-          Navigator.pushNamedAndRemoveUntil(context, RouteNames.tabRoute, (route) => false);
+          Navigator.pushNamedAndRemoveUntil(context, RouteNames.homeTabRoute, (route) => false);
         }
       },
     ));

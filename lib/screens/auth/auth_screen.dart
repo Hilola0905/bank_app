@@ -54,7 +54,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               );
             }
             if (state.formStatus==FormStatus.authenticated) {
-              Navigator.pushReplacementNamed(context, RouteNames.tabRoute);
+              Navigator.pushReplacementNamed(context, RouteNames.homeTabRoute);
             }
             if (state.formStatus==FormStatus.error) {
               Fluttertoast.showToast(

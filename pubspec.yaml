@@ -30,7 +30,7 @@ dependencies:
   fluttertoast: ^8.2.5
   mask_text_input_formatter: ^2.9.0
   rename: ^3.0.2
-
+  flutter_map: ^6.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -48,6 +48,7 @@ flutter:
 
   assets:
     - assets/image/
+    - assets/images/
     - assets/icon/
     - assets/lotties/
   fonts:

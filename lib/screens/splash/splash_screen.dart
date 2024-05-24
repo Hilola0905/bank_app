@@ -15,6 +15,7 @@ import '../routes.dart';
 
 
 
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -37,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
       }
     }
     else {
-      Navigator.pushReplacementNamed(context, RouteNames.tabRoute);
+      Navigator.pushReplacementNamed(context, RouteNames.homeTabRoute);
     }
   }
 

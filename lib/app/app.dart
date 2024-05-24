@@ -3,7 +3,6 @@ import 'package:bank_app/blocs/bottom/bottom_bloc.dart';
 import 'package:bank_app/blocs/card/card_bloc.dart';
 import 'package:bank_app/blocs/card/card_event.dart';
 import 'package:bank_app/blocs/user_profile/profile_bloc.dart';
-import 'package:bank_app/blocs/user_profile/profile_event.dart';
 import 'package:bank_app/data/repository/card_repository.dart';
 import 'package:bank_app/data/repository/profile_repository.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +16,6 @@ class App extends StatelessWidget {
   final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   @override
   Widget build(BuildContext context) {
-    LocalNotificationService.localNotificationService.init(navigatorKey);
 
     return MultiRepositoryProvider(
       providers: [
